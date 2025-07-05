@@ -1,0 +1,105 @@
+robots:
+  - robot_name: SixAxisBotA
+    joint_count: 6
+    gravity: { x: 0.0, y: 0.0, z: 9806.65 }
+    joints:
+      - {
+          name: joint1,
+          type: rotational,
+          axis: z,
+          limits: { min: -185, max: 185 },
+          dh: { a: 175.0098, alpha: 1.5708, d: 630, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+      - {
+          name: joint2,
+          type: rotational,
+          axis: z,
+          limits: { min: -175, max: 60 },
+          dh: { a: 905, alpha: 0, d: 0, theta: 1.5708 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+      - {
+          name: joint3,
+          type: rotational,
+          axis: z,
+          limits: { min: -120, max: 165 },
+          dh: { a: 206, alpha: 1.5708, d: 0, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+      - {
+          name: joint4,
+          type: rotational,
+          axis: z,
+          limits: { min: -180, max: 180 },
+          dh: { a: 0, alpha: -1.5708, d: 1020, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+      - {
+          name: joint5,
+          type: rotational,
+          axis: z,
+          limits: { min: -125, max: 125 },
+          dh: { a: 0, alpha: 1.5708, d: 0, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+      - {
+          name: joint6,
+          type: rotational,
+          axis: z,
+          limits: { min: -360, max: 360 },
+          dh: { a: 0, alpha: 0, d: 450.503, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+
+  - robot_name: SimpleBot
+    joint_count: 2
+    joints:
+      - {
+          name: joint1,
+          type: rotational,
+          axis: z,
+          limits: { min: -90, max: 90 },
+          dh: { a: 500, alpha: 0, d: 0, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
+      - {
+          name: joint2,
+          type: rotational,
+          axis: z,
+          limits: { min: -90, max: 90 },
+          dh: { a: 500, alpha: 0, d: 0, theta: 0 },
+          scale: 1.0,
+          offset: 0.0,
+          inertia: 0.0,
+          damping: 0.0,
+          stiffness: 0.0,
+        }
